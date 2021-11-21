@@ -6,6 +6,7 @@
 - clean: ['~']
 
 - link:
+    ~/.barish.sh: barish.sh
     ~/.config/nvim: nvim
     ~/.gitconfig: gitconfig
     ~/.gitignore: gitignore
