@@ -68,5 +68,5 @@ alias gg='git gui'
 # Environment releated aliases
 alias reload='source ~/.barishb.sh'
 alias rl='ssh'
-alias python3='python3.7'
-alias pip3='pip3.7'
+alias python3='python3.6'
+alias pip3='pip3.6'
