@@ -12,14 +12,15 @@ runtime plugins.vim
 " Plugins keymaps
 " ===================================================================
 runtime keymaps/_personal.vim
-runtime keymaps/lazygit.vim
 runtime keymaps/fzf.vim
+runtime keymaps/lazygit.vim
 runtime keymaps/markdown-preview.vim
 runtime keymaps/nvim-tree.vim
 
 " ===================================================================
 " Plugins configurations
 " ===================================================================
+runtime plugins/airline.vim
 runtime plugins/cmp-config.vim
 runtime plugins/languageclient.vim
 runtime plugins/lsp-config.vim
