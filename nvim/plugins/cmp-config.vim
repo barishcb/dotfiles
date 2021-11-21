@@ -44,9 +44,9 @@ lua <<EOF
           preset = 'default',
 
           menu = {
-              buffer   = "[BUFFER]",
               nvim_lsp = "[LSP]",
               ultisnips = "[ULTISNIPS]",
+              buffer   = "[BUFFER]",
               spell = "[SPELL]",
               path     = "[PATH]",
           },
