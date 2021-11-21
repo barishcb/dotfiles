@@ -9,6 +9,7 @@
     ~/.barish.sh: barish.sh
     ~/.oh-my-bash.sh: oh-my-bash.sh
     ~/.oh-my-bash: oh-my-bash
+    ~/.config/alacritty: alacritty
     ~/.config/kitty: kitty
     ~/.config/nvim: nvim
     ~/.gitconfig: gitconfig
