@@ -8,6 +8,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 ##########################################################
+# oh-my-bash configurations
+##########################################################
+# [ -f ~/.oh-my-bash.sh ] && source ~/.oh-my-bash.sh
+
+##########################################################
 # ripgrep configurations
 ##########################################################
 [ -f ~/tools/bin/complete/rg.bash ] && source ~/tools/bin/complete/rg.bash

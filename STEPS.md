@@ -27,6 +27,12 @@ npm install -g tree-sitter
 - Install NerdFonts
 - Install Jetbrain Font
 
+- Install oh-my-bash
+
+```bash
+bash -c "$(wget https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh -O -)"
+```
+
 - Install tmux
 
 ```bash
