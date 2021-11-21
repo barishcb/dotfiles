@@ -1,0 +1,14 @@
+
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.config/nvim: nvim
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - ["nvim +PlugUpdate +PlugClean! +qa", Installing and updating plugins(using vim-plug)]
+
