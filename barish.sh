@@ -1,4 +1,15 @@
-PATH="~/tools/bin:$PATH"
+##########################################################
+# Setting up custom paths
+##########################################################
+export TOOLS_PATH=$HOME/tools
+export VIRTUALENVS_ROOT=$HOME/virtualenv
+export PYTHONSTARTUP=$HOME/.pythonstartup
+export PATH="$TOOLS_PATH/bin:$PATH"
+
+##########################################################
+# Setting personal bash configurations
+##########################################################
+export HISTSIZE=3000
 
 ##########################################################
 # nvm/node configurations
@@ -47,6 +58,12 @@ alias ls='exa --icons --group-directories-first'
 alias ll='ls --long --git --header'
 alias lr='ll --sort size'
 alias ltree='ll -T --git-ignore'
+
+## Git specific aliases and functions
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+alias g='git'
+alias gg='git gui'
 
 # Environment releated aliases
 alias reload='source ~/.barishb.sh'
