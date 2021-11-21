@@ -98,4 +98,4 @@ endfunction
 autocmd BufWritePre * :%s/\s\+$//e
 
 " Automatically source init.vim on save
-" autocmd! bufwritepost $MYVIMRC source $MYVIMRC
+autocmd! bufwritepost $MYVIMRC source $MYVIMRC

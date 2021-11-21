@@ -11,8 +11,10 @@ runtime plugins.vim
 " ===================================================================
 " Plugins keymaps
 " ===================================================================
+runtime keymaps/_personal.vim
 runtime keymaps/lazygit.vim
 runtime keymaps/fzf.vim
+runtime keymaps/nvim-tree.vim
 
 " ===================================================================
 " Loading Looks
