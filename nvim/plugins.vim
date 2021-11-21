@@ -39,7 +39,7 @@ Plug 'junegunn/fzf.vim'
 " Markdown plugins
 Plug 'godlygeek/tabular'
 Plug 'tpope/vim-markdown'
-Plug 'iamcco/markdown-preview.nvim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 " GIT plugins
 Plug 'tpope/vim-fugitive'
