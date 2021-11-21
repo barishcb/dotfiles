@@ -1,0 +1,7 @@
+import rlcompleter
+
+try:
+    import readline
+    readline.parse_and_bind("tab: complete")
+except Exception as err:
+	pass

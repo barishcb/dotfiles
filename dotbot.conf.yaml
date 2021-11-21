@@ -9,6 +9,7 @@
     ~/.config/nvim: nvim
     ~/.gitconfig: gitconfig
     ~/.gitignore: gitignore
+    ~/.pythonstartup: pythonstartup
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
