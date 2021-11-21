@@ -22,7 +22,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 " Icons plugins
 Plug 'ryanoasis/vim-devicons'
 
-" treesetter for better code highliting
+" tree-sitter for better code highlighting
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 " Language supports
@@ -63,6 +63,7 @@ Plug 'nvim-telescope/telescope.nvim'
 " LSP
 " ==================================================================
 Plug 'neovim/nvim-lspconfig'
+Plug 'kabouzeid/nvim-lspinstall'
 Plug 'onsails/lspkind-nvim'
 
 " ==================================================================
