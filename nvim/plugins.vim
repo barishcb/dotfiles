@@ -1,7 +1,6 @@
 " ===================================================================
 " Vundle configurations
 " ===================================================================
-
 call plug#begin('~/.nvim/plugged')
 
 " Setup airline for vim
@@ -92,7 +91,7 @@ Plug 'honza/vim-snippets'
 Plug 'jiangmiao/auto-pairs' "this will auto close ( [ {
 Plug 'prettier/vim-prettier'
 
-" these two plugins will add highlighting and indenting to JSX and TSX files.
+" These two plugins will add highlighting and indenting to JSX and TSX files.
 Plug 'yuezk/vim-js'
 Plug 'HerringtonDarkholme/yats.vim'
 Plug 'maxmellon/vim-jsx-pretty'
