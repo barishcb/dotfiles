@@ -10,7 +10,7 @@ export NVM_DIR="$HOME/.nvm"
 ##########################################################
 # oh-my-bash configurations
 ##########################################################
-# [ -f ~/.oh-my-bash.sh ] && source ~/.oh-my-bash.sh
+[ -f ~/.oh-my-bash.sh ] && source ~/.oh-my-bash.sh
 
 ##########################################################
 # ripgrep configurations

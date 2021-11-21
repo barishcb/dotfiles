@@ -6,3 +6,6 @@
 	path = oh-my-bash
 	url = https://github.com/ohmybash/oh-my-bash
 	ignore = dirty
+[submodule "tmux/plugins/tpm"]
+	path = tmux/plugins/tpm
+	url = https://github.com/tmux-plugins/tpm
