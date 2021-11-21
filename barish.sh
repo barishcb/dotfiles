@@ -1,10 +1,14 @@
 ##########################################################
 # Setting up custom paths
 ##########################################################
+export SOFTWARE_PATH=$HOME/softwares/
 export TOOLS_PATH=$HOME/tools
 export VIRTUALENVS_ROOT=$HOME/virtualenv
 export PYTHONSTARTUP=$HOME/.pythonstartup
+
+# Updates all executable paths
 export PATH="$TOOLS_PATH/bin:$PATH"
+export PATH="$SOFTWARE_PATH/sublime-text/latest:$PATH"
 
 ##########################################################
 # Setting personal bash configurations
@@ -57,6 +61,7 @@ complete -o nospace -o plusdirs -F _fzf_dir_completion cd
 ##########################################################
 alias vim=nvim
 alias vi=nvim
+alias subl=sublime_text
 
 # Alias related to exa utils
 alias ls='exa --icons --group-directories-first'
@@ -64,14 +69,15 @@ alias ll='ls --long --git --header'
 alias lr='ll --sort size'
 alias ltree='ll -T --git-ignore'
 
-## Git specific aliases and functions
+# Git specific aliases and functions
 export VISUAL=nvim
 export EDITOR="$VISUAL"
 alias g='git'
 alias gg='git gui'
 
-# Environment releated aliases
+# Environment related aliases
 alias reload='source ~/.barishb.sh'
 alias rl='ssh'
 alias python3='python3.6'
 alias pip3='pip3.6'
+
