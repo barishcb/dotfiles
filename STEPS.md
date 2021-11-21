@@ -23,3 +23,15 @@ npm install -g tree-sitter
 - Install `ripgrep` tool (https://github.com/BurntSushi/ripgrep/releases)
 - Install `fd` tool (https://github.com/sharkdp/fd/releases)
 - Install `lazygit` tool (https://github.com/sharkdp/fd/releases)
+
+- Install NerdFonts
+- Install Jetbrain Font
+
+- Install tmux
+
+```bash
+tar -zxf tmux-*.tar.gz
+cd tmux-*/
+./configure
+make && sudo make install
+```

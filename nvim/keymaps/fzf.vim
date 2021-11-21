@@ -14,4 +14,3 @@ nnoremap <leader>hh :History<CR>
 nnoremap <leader>h: :History:<CR>
 nnoremap <leader>h/ :History/<CR>
 nnoremap <leader>w  :Windows<CR>
-
