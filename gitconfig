@@ -54,3 +54,5 @@
 [user]
   email = barishcb@gmail.com
   name = Barish Chandran B
+[pager]
+	branch = false
