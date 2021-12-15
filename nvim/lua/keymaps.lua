@@ -3,6 +3,11 @@
 -- ===================================================================
 local map = vim.api.nvim_set_keymap
 
+-- Set the leader key before every thing else
+vim.g.mapleader = ' '
+vim.api.nvim_set_keymap('n', vim.g.mapleader, '', {noremap = true})
+vim.api.nvim_set_keymap('v', vim.g.mapleader, '', {noremap = true})
+
 -- Assuming \ as the leader, \ev to edit $MYVIMRC and save and source \es
 -- for sourcing the $MYVIMRC
 map('n', '<leader>ev', ':e $MYVIMRC<CR>', {noremap = true})
