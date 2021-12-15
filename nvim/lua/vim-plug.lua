@@ -8,6 +8,7 @@ vim.call('plug#begin', '~/.nvim/plugged')
 Plug('tpope/vim-surround')
 
 -- Setup lualine for vim
+Plug('glepnir/dashboard-nvim')
 Plug('nvim-lualine/lualine.nvim')
 
 -- Installing color schemes and icons for vim
@@ -95,6 +96,7 @@ vim.call('plug#end')
 -- ===================================================================
 -- Plugins configurations
 -- ===================================================================
+require('plugins/dashboard')
 require('plugins/fzf')
 require('plugins/kommentary')
 require('plugins/lazygit')
