@@ -1,24 +1,23 @@
-
 - defaults:
     link:
         relink: true
-
 - clean: ['~']
-
 - link:
-    ~/.barish.sh: barish.sh
-    ~/.oh-my-bash.sh: oh-my-bash.sh
-    ~/.oh-my-bash: oh-my-bash
     ~/.config/alacritty: alacritty
     ~/.config/kitty: kitty
     ~/.config/nvim: nvim
     ~/.gitconfig: gitconfig
     ~/.gitignore: gitignore
+    ~/.oh-my-bash.sh: oh-my-bash.sh
+    ~/.oh-my-bash: oh-my-bash
     ~/.pythonstartup: pythonstartup
-    ~/.tmux: tmux
     ~/.tmux.conf: tmux.conf
-
+    ~/.tmux: tmux
+    ~/.user.sh: user.sh
+- create:
+    - ~/virtualenvs
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
     - [~/.tmux/plugins/tpm/scripts/install_plugins.sh >/dev/null 2>&1, Installing tmux plugins]
+    - ["curl -fLo $HOME/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim", Install vim-plug for neovim]
     - ["nvim +PlugUpdate +PlugClean! +qa", Installing and updating plugins(using vim-plug)]
