@@ -45,6 +45,12 @@ vim.opt.hlsearch = true                   -- highlight the search
 vim.opt.showmatch = true                  -- show matching bracket
 
 ----------------------------------------------------------------------
+-- Set visible trailing and tab characters
+----------------------------------------------------------------------
+vim.opt.list = true
+vim.opt.listchars = { tab = '»·', trail = '·' }
+
+----------------------------------------------------------------------
 -- Spell Check
 ----------------------------------------------------------------------
 vim.opt.spelllang = { 'en_us' }           -- Use English for spellchecking
