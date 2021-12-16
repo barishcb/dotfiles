@@ -81,3 +81,11 @@ alias rl='ssh'
 alias python3='python3.6'
 alias pip3='pip3.6'
 
+# Teradici PcoIP Client (Using Docker)
+# Need to pull the docker image before using
+#
+#   $ docker pull danisla/pcoip-client
+#   $ python3 -m pip install dockerx --user
+#
+# alias pcoip='docker run -d --rm -h myhost -v $(pwd)/.config/:/home/myuser/.config/Teradici -v $(pwd)/.logs:/tmp/Teradici/$USER/PCoIPClient/logs -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=$DISPLAY danisla/pcoip-client'
+alias pcoip='python3 -m dockerx.run --image danisla/pcoip-client'
