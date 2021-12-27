@@ -79,6 +79,9 @@ alias gg='git gui'
 alias reload='source ~/.barishb.sh'
 alias rl='ssh'
 
+# Aliases for user tools
+alias lg=lazygit
+
 # Teradici PcoIP Client (Using Docker)
 # Need to pull the docker image before using
 #
