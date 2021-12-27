@@ -78,8 +78,6 @@ alias gg='git gui'
 # Environment related aliases
 alias reload='source ~/.barishb.sh'
 alias rl='ssh'
-alias python3='python3.6'
-alias pip3='pip3.6'
 
 # Teradici PcoIP Client (Using Docker)
 # Need to pull the docker image before using
